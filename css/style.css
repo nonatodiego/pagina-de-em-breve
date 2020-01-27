@@ -4,3 +4,51 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid blue;
+}
+
+.flex {
+  display: flex;
+  background-image: url(../images/bg-pattern-desktop.svg);
+  flex-direction: column;
+  border: 1px solid red;  
+  justify-content: flex-start;  
+  align-items: center;
+  min-width: 50%;
+  height: 100vh;
+}
+
+.logo img{
+  margin-top: 100px;  
+  border: 1px solid green;
+}
+
+.text-1 { 
+  margin-top: 200px; 
+  font-size: 3em; 
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color:hsl(0, 36%, 70%);
+}
+
+.email-input,.btn-input {
+  max-width: 200px;
+}
+
+
+.aside-img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
